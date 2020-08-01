@@ -1,7 +1,7 @@
 # laravel-travelperk [![tag](https://img.shields.io/github/tag/namelivia/laravel-travelperk.svg)](https://github.com/namelivia/laravel-travelperk/releases) [![Build Status](https://travis-ci.org/namelivia/laravel-travelperk.svg?branch=master)](https://travis-ci.org/namelivia/laravel-travelperk) [![codecov](https://codecov.io/gh/namelivia/laravel-travelperk/branch/master/graph/badge.svg)](https://codecov.io/gh/namelivia/laravel-travelperk)
 
 <p align="center">
-  <img src="" alt="Laravel TravelPerk" />
+  <img src="https://user-images.githubusercontent.com/1571416/89100898-508ea880-d3fb-11ea-8bc8-7f6a9e9b71c0.png" alt="Laravel TravelPerk" />
 </p>
 
 ## Installation
