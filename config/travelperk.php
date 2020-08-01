@@ -35,7 +35,7 @@ return [
         ],
 
         'alternative' => [
-            'api_ket' => 'your-client-id',
+            'api_key' => 'your-api-key',
         ],
 
     ],
