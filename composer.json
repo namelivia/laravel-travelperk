@@ -1,0 +1,51 @@
+{
+    "name": "namelivia/laravel-travelperk",
+    "description": "A TravelPerk web api library for Laravel",
+    "license": "MIT",
+    "keywords": ["laravel", "travelperk"],
+    "authors": [
+        {
+            "name": "José Ignacio Amelivia Santiago",
+            "email": "jignacio.amelivia@gmail.com",
+            "homepage": "https://namelivia.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "illuminate/contracts": "5.5.*|5.6.*|5.7.*|5.8.*|6.*|7.*",
+        "illuminate/support": "5.5.*|5.6.*|5.7.*|5.8.*|6.*|7.*",
+        "graham-campbell/manager": "3.*|4.*",
+        "namelivia/travelperk-http-php": "^0.0.1"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.0",
+        "graham-campbell/analyzer": "^3.0",
+        "graham-campbell/testbench": "3.*|4.*|5.*",
+        "phpunit/phpunit": "^9.2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Namelivia\\TravelPerk\\Laravel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Namelivia\\TravelPerk\\Tests\\Laravel\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Namelivia\\TravelPerk\\Laravel\\TravelPerkServiceProvider"
+            ],
+            "aliases": {
+                "TravelPerk": "Namelivia\\TravelPerk\\Laravel\\Facades\\TravelPerk"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
