@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "901015e6165d0fd9d13951e2f2ef7581",
+    "content-hash": "e0abb56880a5604b47ea2d6bc01ccbd8",
     "packages": [
         {
             "name": "brick/math",
@@ -1078,16 +1078,16 @@
         },
         {
             "name": "namelivia/travelperk-http-php",
-            "version": "0.0.16",
+            "version": "0.0.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/namelivia/travelperk-http-php.git",
-                "reference": "1803511bcf2a36b500813ade0ba25f4d28b490fd"
+                "reference": "91348520efe71144afeb28bc9a33686dcd2865a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/namelivia/travelperk-http-php/zipball/1803511bcf2a36b500813ade0ba25f4d28b490fd",
-                "reference": "1803511bcf2a36b500813ade0ba25f4d28b490fd",
+                "url": "https://api.github.com/repos/namelivia/travelperk-http-php/zipball/91348520efe71144afeb28bc9a33686dcd2865a3",
+                "reference": "91348520efe71144afeb28bc9a33686dcd2865a3",
                 "shasum": ""
             },
             "require": {
@@ -1122,7 +1122,7 @@
                 "sdk",
                 "travelperk"
             ],
-            "time": "2020-08-22T17:06:48+00:00"
+            "time": "2020-08-22T17:35:42+00:00"
         },
         {
             "name": "nesbot/carbon",
