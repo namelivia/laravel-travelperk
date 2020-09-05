@@ -116,7 +116,7 @@ App::make('Foo')->bar();
 
 ## Documentation
 
-This is package is a Laravel wrapper of [travelperk-http-php](https://github.com/namelivia/travelperk-http-php).
+This is package is a Laravel wrapper of [travelperk-http-php](https://github.com/namelivia/travelperk-http-php). To know more about the operations you can perform with it read its documentation, and more specifically [its wiki section](https://github.com/namelivia/travelperk-http-php/wiki).
 
 ## License
 
