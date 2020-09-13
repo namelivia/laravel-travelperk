@@ -66,7 +66,7 @@ class TravelPerkFactory
     {
         return (new ServiceProvider())->build(
             $config['api_key'],
-            $config['is_sanbox'],
+            $config['is_sandbox'],
         );
     }
 }
