@@ -19,7 +19,8 @@ class TravelPerkFactoryTest extends AbstractTestCase
         $factory = $this->getTravelPerkFactory();
 
         $return = $factory->make([
-            'api_key' => 'your-api-key'
+            'api_key' => 'your-api-key',
+            'is_sandbox' => true,
         ]);
 
         $this->assertInstanceOf(TravelPerk::class, $return);

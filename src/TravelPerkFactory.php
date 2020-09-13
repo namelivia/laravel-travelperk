@@ -42,7 +42,8 @@ class TravelPerkFactory
     protected function getConfig(array $config): array
     {
         $keys = [
-            'api_key'
+            'api_key',
+            'is_sandbox',
         ];
 
         foreach ($keys as $key) {
@@ -57,14 +58,15 @@ class TravelPerkFactory
     /**
      * Get the TravelPerk client.
      *
-     * @param string[] $auth
+     * @param string[] $config
      *
      * @return \Namelivia\TravelPerk\Api\TravelPerk
      */
-    protected function getClient(array $auth): TravelPerk
+    protected function getClient(array $config): TravelPerk
     {
         return (new ServiceProvider())->build(
-            $auth['api_key']
+            $config['api_key'],
+            $config['is_sanbox'],
         );
     }
 }
