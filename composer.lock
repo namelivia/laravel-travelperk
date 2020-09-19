@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b08028325564e6ea3af58416188d6e8",
+    "content-hash": "11674ab818aa065f62f7486a891c4914",
     "packages": [
         {
             "name": "brick/math",
@@ -669,16 +669,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.4.0",
+            "version": "v8.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "1c57ab5e375d0a897c22b29e8352453be514131e"
+                "reference": "5a748eecae35fd453e0b1e4d4b6f4fadf0d3e7ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/1c57ab5e375d0a897c22b29e8352453be514131e",
-                "reference": "1c57ab5e375d0a897c22b29e8352453be514131e",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/5a748eecae35fd453e0b1e4d4b6f4fadf0d3e7ac",
+                "reference": "5a748eecae35fd453e0b1e4d4b6f4fadf0d3e7ac",
                 "shasum": ""
             },
             "require": {
@@ -828,7 +828,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2020-09-16T16:13:13+00:00"
+            "time": "2020-09-18T21:27:11+00:00"
         },
         {
             "name": "league/commonmark",
@@ -1160,16 +1160,16 @@
         },
         {
             "name": "namelivia/travelperk-http-php",
-            "version": "0.0.25",
+            "version": "0.0.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/namelivia/travelperk-http-php.git",
-                "reference": "ffcfc16f3a4ec908e25b4eec984238a13487a4cf"
+                "reference": "4a0278cae79ba35f3acf165847c45ababddf8897"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/namelivia/travelperk-http-php/zipball/ffcfc16f3a4ec908e25b4eec984238a13487a4cf",
-                "reference": "ffcfc16f3a4ec908e25b4eec984238a13487a4cf",
+                "url": "https://api.github.com/repos/namelivia/travelperk-http-php/zipball/4a0278cae79ba35f3acf165847c45ababddf8897",
+                "reference": "4a0278cae79ba35f3acf165847c45ababddf8897",
                 "shasum": ""
             },
             "require": {
@@ -1204,7 +1204,7 @@
                 "sdk",
                 "travelperk"
             ],
-            "time": "2020-09-18T11:20:24+00:00"
+            "time": "2020-09-19T10:06:23+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -5333,16 +5333,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "9.1.10",
+            "version": "9.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "5134e2a65ec48e2f7126d12f1503a9889c660bdf"
+                "reference": "c9394cb9d07ecfa9351b96f2e296bad473195f4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/5134e2a65ec48e2f7126d12f1503a9889c660bdf",
-                "reference": "5134e2a65ec48e2f7126d12f1503a9889c660bdf",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/c9394cb9d07ecfa9351b96f2e296bad473195f4d",
+                "reference": "c9394cb9d07ecfa9351b96f2e296bad473195f4d",
                 "shasum": ""
             },
             "require": {
@@ -5402,7 +5402,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-09-18T05:25:29+00:00"
+            "time": "2020-09-19T05:29:17+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
