@@ -58,6 +58,10 @@ This facade will dynamically pass static method calls to the `travelperk` object
 
 This class contains no public methods of interest. This class should be added to the providers array in `config/app.php`. This class will setup ioc bindings.
 
+### Demo
+
+For a complete example you can check [laravel-travelperk-demo](https://github.com/namelivia/laravel-travelperk-demo), it's a Laravel 8 application that implements all the operations that are available on this package.
+
 ### Examples
 
 Here you can see an example of just how simple this package is to use. Out of the box, the default adapter is `main`. After you enter your authentication details in the config file, it will just work:
