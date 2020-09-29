@@ -20,6 +20,9 @@ class TravelPerkFactoryTest extends AbstractTestCase
 
         $return = $factory->make([
             'api_key' => 'your-api-key',
+            'client_id' => 'your-client-id',
+            'client_secret' => 'your-client-secret',
+            'redirect_url' => 'your-redirect-url',
             'is_sandbox' => true,
         ]);
 

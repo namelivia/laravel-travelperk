@@ -43,6 +43,9 @@ class TravelPerkFactory
     {
         $keys = [
             'api_key',
+            'redirect_url',
+            'client_id',
+            'client_secret',
             'is_sandbox',
         ];
 
@@ -66,6 +69,9 @@ class TravelPerkFactory
     {
         return (new ServiceProvider())->build(
             $config['api_key'],
+            $config['redirect_url'],
+            $config['client_id'],
+            $config['client_secret'],
             $config['is_sandbox'],
         );
     }
