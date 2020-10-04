@@ -14,12 +14,27 @@ use Namelivia\TravelPerk\Laravel\TravelPerkFactory;
  */
 class TravelPerkFactoryTest extends AbstractTestCase
 {
-    public function testMakeStandard()
+    public function testMakeForApiKey()
     {
         $factory = $this->getTravelPerkFactory();
 
         $return = $factory->make([
             'api_key' => 'your-api-key',
+            'client_id' => 'your-client-id',
+            'client_secret' => 'your-client-secret',
+            'redirect_url' => 'your-redirect-url',
+            'is_sandbox' => true,
+        ]);
+
+        $this->assertInstanceOf(TravelPerk::class, $return);
+    }
+
+    public function testMakeForOAuth()
+    {
+        $factory = $this->getTravelPerkFactory();
+
+        $return = $factory->make([
+            'api_key' => null,
             'client_id' => 'your-client-id',
             'client_secret' => 'your-client-secret',
             'redirect_url' => 'your-redirect-url',

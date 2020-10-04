@@ -8,6 +8,7 @@ use Illuminate\Support\Arr;
 use InvalidArgumentException;
 use Namelivia\TravelPerk\Api\TravelPerk;
 use Namelivia\TravelPerk\ServiceProvider;
+use kamermans\OAuth2\Persistence\NullTokenPersistence;
 
 /**
  * This is the TravelPerk factory class.
@@ -67,11 +68,18 @@ class TravelPerkFactory
      */
     protected function getClient(array $config): TravelPerk
     {
+        if (is_null($config['api_key'])) {
+            return (new ServiceProvider())->buildOAuth2(
+                //TODO:Let the user decide this
+                new NullTokenPersistence(),
+                $config['client_id'],
+                $config['client_secret'],
+                $config['redirect_url'],
+                $config['is_sandbox'],
+            );
+        }
         return (new ServiceProvider())->build(
             $config['api_key'],
-            $config['redirect_url'],
-            $config['client_id'],
-            $config['client_secret'],
             $config['is_sandbox'],
         );
     }
