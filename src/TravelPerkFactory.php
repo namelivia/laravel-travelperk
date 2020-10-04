@@ -72,7 +72,7 @@ class TravelPerkFactory
             return (new ServiceProvider())->buildOAuth2(
                 //TODO:Let the user decide this
 
-                $token_persistence = new FileTokenPersistence('/tmp/travelperk');
+                $token_persistence = new FileTokenPersistence('/tmp/travelperk'),
                 $config['client_id'],
                 $config['client_secret'],
                 $config['redirect_url'],
