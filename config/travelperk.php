@@ -31,6 +31,7 @@ return [
     'connections' => [
 
         'main' => [
+            //TODO: This has to be set to null for using oauth
             'api_key' => env('TRAVELPERK_API_KEY', 'your-api-key'),
             'client_id' => env('TRAVELPERK_CLIENT_ID', 'your-client-id'),
             'client_secret' => env('TRAVELPERK_CLIENT_SECRET', 'your-client-secret'),

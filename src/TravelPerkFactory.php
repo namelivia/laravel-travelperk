@@ -8,7 +8,7 @@ use Illuminate\Support\Arr;
 use InvalidArgumentException;
 use Namelivia\TravelPerk\Api\TravelPerk;
 use Namelivia\TravelPerk\ServiceProvider;
-use kamermans\OAuth2\Persistence\NullTokenPersistence;
+use kamermans\OAuth2\Persistence\FileTokenPersistence;
 
 /**
  * This is the TravelPerk factory class.
@@ -71,7 +71,8 @@ class TravelPerkFactory
         if (is_null($config['api_key'])) {
             return (new ServiceProvider())->buildOAuth2(
                 //TODO:Let the user decide this
-                new NullTokenPersistence(),
+
+                $token_persistence = new FileTokenPersistence('/tmp/travelperk');
                 $config['client_id'],
                 $config['client_secret'],
                 $config['redirect_url'],
