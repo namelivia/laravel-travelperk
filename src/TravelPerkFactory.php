@@ -6,9 +6,9 @@ namespace Namelivia\TravelPerk\Laravel;
 
 use Illuminate\Support\Arr;
 use InvalidArgumentException;
+use kamermans\OAuth2\Persistence\FileTokenPersistence;
 use Namelivia\TravelPerk\Api\TravelPerk;
 use Namelivia\TravelPerk\ServiceProvider;
-use kamermans\OAuth2\Persistence\FileTokenPersistence;
 
 /**
  * This is the TravelPerk factory class.
@@ -79,6 +79,7 @@ class TravelPerkFactory
                 $config['is_sandbox'],
             );
         }
+
         return (new ServiceProvider())->build(
             $config['api_key'],
             $config['is_sandbox'],
