@@ -70,7 +70,7 @@ class TravelPerkFactory
     {
         if (is_null($config['api_key'])) {
             return (new ServiceProvider())->buildOAuth2(
-                //TODO:Let the user decide this
+                //TODO:Let the user decide this. https://github.com/namelivia/laravel-travelperk/issues/4
 
                 new FileTokenPersistence('/tmp/travelperk'),
                 $config['client_id'],

@@ -31,7 +31,7 @@ return [
     'connections' => [
 
         'main' => [
-            //TODO: This has to be set to null for using oauth
+            //TODO: This has to be set to null for using oauth. https://github.com/namelivia/laravel-travelperk/issues/5
             'api_key' => env('TRAVELPERK_API_KEY', 'your-api-key'),
             'client_id' => env('TRAVELPERK_CLIENT_ID', 'your-client-id'),
             'client_secret' => env('TRAVELPERK_CLIENT_SECRET', 'your-client-secret'),
@@ -40,6 +40,7 @@ return [
         ],
 
         'alternative' => [
+            //TODO: This has to be set to null for using oauth. https://github.com/namelivia/laravel-travelperk/issues/5
             'api_key' => 'your-api-key',
             'client_id' => 'your-client-id',
             'client_secret' => 'your-client-secret',
