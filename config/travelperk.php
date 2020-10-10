@@ -36,6 +36,7 @@ return [
             'client_id' => env('TRAVELPERK_CLIENT_ID', 'your-client-id'),
             'client_secret' => env('TRAVELPERK_CLIENT_SECRET', 'your-client-secret'),
             'redirect_url' => env('TRAVELPERK_REDIRECT_URL', 'your-redirect-url'),
+            'scopes' => env('TRAVELPERK_OAUTH_SCOPES', []),
             'is_sandbox' => false,
         ],
 
@@ -45,6 +46,7 @@ return [
             'client_id' => 'your-client-id',
             'client_secret' => 'your-client-secret',
             'redirect_url' => 'your-redirect-url',
+            'scopes' => [],
             'is_sandbox' => false,
         ],
 

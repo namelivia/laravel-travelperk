@@ -23,6 +23,7 @@ class TravelPerkFactoryTest extends AbstractTestCase
             'client_id' => 'your-client-id',
             'client_secret' => 'your-client-secret',
             'redirect_url' => 'your-redirect-url',
+            'scopes' => [],
             'is_sandbox' => true,
         ]);
 
@@ -38,6 +39,7 @@ class TravelPerkFactoryTest extends AbstractTestCase
             'client_id' => 'your-client-id',
             'client_secret' => 'your-client-secret',
             'redirect_url' => 'your-redirect-url',
+            'scopes' => ['expenses:read'],
             'is_sandbox' => true,
         ]);
 

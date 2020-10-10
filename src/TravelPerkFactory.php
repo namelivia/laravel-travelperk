@@ -47,6 +47,7 @@ class TravelPerkFactory
             'redirect_url',
             'client_id',
             'client_secret',
+            'scopes',
             'is_sandbox',
         ];
 
@@ -76,6 +77,7 @@ class TravelPerkFactory
                 $config['client_id'],
                 $config['client_secret'],
                 $config['redirect_url'],
+                $config['scopes'],
                 $config['is_sandbox'],
             );
         }
