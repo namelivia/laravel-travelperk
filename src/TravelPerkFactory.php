@@ -38,6 +38,7 @@ class TravelPerkFactory
                 'redirect_url',
                 'client_id',
                 'client_secret',
+                'access_token_path',
                 'scopes',
                 'is_sandbox',
             ];
@@ -89,7 +90,7 @@ class TravelPerkFactory
             return (new ServiceProvider())->buildOAuth2(
                 //TODO:Let the user decide this. https://github.com/namelivia/laravel-travelperk/issues/4
 
-                new FileTokenPersistence('/tmp/travelperk'),
+                new FileTokenPersistence($config['access_token_path']),
                 $config['client_id'],
                 $config['client_secret'],
                 $config['redirect_url'],
