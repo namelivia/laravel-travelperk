@@ -31,6 +31,25 @@ class TravelPerkFactory
         return $this->getClient($config);
     }
 
+    private function getConfigKeys(string $authenticationMethod): array
+    {
+        if ($authenticationMethod === 'oauth')
+        {
+            return [
+                'redirect_url',
+                'client_id',
+                'client_secret',
+                'scopes',
+                'is_sandbox',
+            ];
+        }
+
+        if ($authenticationMethod === 'api-key') {
+            return ['api_key', 'is_sandbox'];
+        }
+        throw new InvalidArgumentException("Authentication method must be api-key or oauth");
+    }
+
     /**
      * Get the configuration data.
      *
@@ -42,14 +61,11 @@ class TravelPerkFactory
      */
     protected function getConfig(array $config): array
     {
-        $keys = [
-            'api_key',
-            'redirect_url',
-            'client_id',
-            'client_secret',
-            'scopes',
-            'is_sandbox',
-        ];
+        if (!array_key_exists('authentication_method', $config)) {
+            throw new InvalidArgumentException("Authentication method missing");
+        }
+        $authenticationMethod = $config['authentication_method'];
+        $keys = $this->getConfigKeys($authenticationMethod);
 
         foreach ($keys as $key) {
             if (!array_key_exists($key, $config)) {
@@ -69,7 +85,7 @@ class TravelPerkFactory
      */
     protected function getClient(array $config): TravelPerk
     {
-        if (is_null($config['api_key'])) {
+        if (array_key_exists('client_id', $config)) {
             return (new ServiceProvider())->buildOAuth2(
                 //TODO:Let the user decide this. https://github.com/namelivia/laravel-travelperk/issues/4
 
