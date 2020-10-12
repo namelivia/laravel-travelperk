@@ -19,11 +19,8 @@ class TravelPerkFactoryTest extends AbstractTestCase
         $factory = $this->getTravelPerkFactory();
 
         $return = $factory->make([
+            'authentication_method' => 'api-key',
             'api_key' => 'your-api-key',
-            'client_id' => 'your-client-id',
-            'client_secret' => 'your-client-secret',
-            'redirect_url' => 'your-redirect-url',
-            'scopes' => [],
             'is_sandbox' => true,
         ]);
 
@@ -35,7 +32,7 @@ class TravelPerkFactoryTest extends AbstractTestCase
         $factory = $this->getTravelPerkFactory();
 
         $return = $factory->make([
-            'api_key' => null,
+            'authentication_method' => 'oauth',
             'client_id' => 'your-client-id',
             'client_secret' => 'your-client-secret',
             'redirect_url' => 'your-redirect-url',
@@ -46,12 +43,60 @@ class TravelPerkFactoryTest extends AbstractTestCase
         $this->assertInstanceOf(TravelPerk::class, $return);
     }
 
-    public function testMakeWithoutApiKey()
+    public function testMakeWithNoAuthenticationMethod()
     {
         $factory = $this->getTravelPerkFactory();
 
+        $this->expectExceptionMessage('Authentication method missing');
         $this->expectException(\InvalidArgumentException::class);
         $factory->make([]);
+    }
+
+    public function testMakeWithNoSandboxOption()
+    {
+        $factory = $this->getTravelPerkFactory();
+
+        $this->expectExceptionMessage('Missing configuration key [is_sandbox].');
+        $this->expectException(\InvalidArgumentException::class);
+        $factory->make([
+            'authentication_method' => 'api-key',
+            'api_key' => 'api-key',
+        ]);
+    }
+
+    public function testMakeWithInvalidAuthenticationMethod()
+    {
+        $factory = $this->getTravelPerkFactory();
+
+        $this->expectExceptionMessage('Authentication method must be api-key or oauth');
+        $this->expectException(\InvalidArgumentException::class);
+        $factory->make([
+            'authentication_method' => 'invalid',
+        ]);
+    }
+
+    public function testMakeWithInvalidParamsForOAuth()
+    {
+        $factory = $this->getTravelPerkFactory();
+
+        $this->expectExceptionMessage('Missing configuration key [redirect_url].');
+        $this->expectException(\InvalidArgumentException::class);
+        $factory->make([
+            'authentication_method' => 'oauth',
+            'api_key' => 'api-key',
+        ]);
+    }
+
+    public function testMakeWithInvalidParamsForApiKey()
+    {
+        $factory = $this->getTravelPerkFactory();
+
+        $this->expectExceptionMessage('Missing configuration key [api_key].');
+        $this->expectException(\InvalidArgumentException::class);
+        $factory->make([
+            'authentication_method' => 'api-key',
+            'client_id' => 'client-id',
+        ]);
     }
 
     protected function getTravelPerkFactory()
