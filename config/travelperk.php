@@ -31,8 +31,8 @@ return [
     'connections' => [
 
         'main' => [
-			//Authentication method can be oauth or api-key
-			'authentication_method' => env('TRAVELPERK_AUTHENTICATION_METHOD', 'api-key'),
+            //Authentication method can be oauth or api-key
+            'authentication_method' => env('TRAVELPERK_AUTHENTICATION_METHOD', 'api-key'),
             'api_key' => env('TRAVELPERK_API_KEY', 'your-api-key'),
             'client_id' => env('TRAVELPERK_CLIENT_ID', 'your-client-id'),
             'client_secret' => env('TRAVELPERK_CLIENT_SECRET', 'your-client-secret'),
@@ -42,8 +42,8 @@ return [
         ],
 
         'alternative' => [
-			//Authentication method can be oauth or api-key
-			'authentication_method' => 'api-key_OR_oauth',
+            //Authentication method can be oauth or api-key
+            'authentication_method' => 'api-key_OR_oauth',
             'api_key' => 'your-api-key',
             'client_id' => 'your-client-id',
             'client_secret' => 'your-client-secret',

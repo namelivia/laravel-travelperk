@@ -33,8 +33,7 @@ class TravelPerkFactory
 
     private function getConfigKeys(string $authenticationMethod): array
     {
-        if ($authenticationMethod === 'oauth')
-        {
+        if ($authenticationMethod === 'oauth') {
             return [
                 'redirect_url',
                 'client_id',
@@ -47,7 +46,8 @@ class TravelPerkFactory
         if ($authenticationMethod === 'api-key') {
             return ['api_key', 'is_sandbox'];
         }
-        throw new InvalidArgumentException("Authentication method must be api-key or oauth");
+
+        throw new InvalidArgumentException('Authentication method must be api-key or oauth');
     }
 
     /**
@@ -62,7 +62,7 @@ class TravelPerkFactory
     protected function getConfig(array $config): array
     {
         if (!array_key_exists('authentication_method', $config)) {
-            throw new InvalidArgumentException("Authentication method missing");
+            throw new InvalidArgumentException('Authentication method missing');
         }
         $authenticationMethod = $config['authentication_method'];
         $keys = $this->getConfigKeys($authenticationMethod);
