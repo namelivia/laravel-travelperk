@@ -36,6 +36,7 @@ class TravelPerkFactoryTest extends AbstractTestCase
             'client_id' => 'your-client-id',
             'client_secret' => 'your-client-secret',
             'redirect_url' => 'your-redirect-url',
+            'access_token_path' => '/your/access/token/path',
             'scopes' => ['expenses:read'],
             'is_sandbox' => true,
         ]);
