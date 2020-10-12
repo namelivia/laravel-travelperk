@@ -37,7 +37,7 @@ return [
             'client_id' => env('TRAVELPERK_CLIENT_ID', 'your-client-id'),
             'client_secret' => env('TRAVELPERK_CLIENT_SECRET', 'your-client-secret'),
             'redirect_url' => env('TRAVELPERK_REDIRECT_URL', 'your-redirect-url'),
-            'access_token_storage_path' => env('TRAVELPERK_ACCESS_TOKEN_PATH', '/your/access/token/path'),
+            'access_token_path' => env('TRAVELPERK_ACCESS_TOKEN_PATH', '/your/access/token/path'),
             'scopes' => [],
             'is_sandbox' => false,
         ],
