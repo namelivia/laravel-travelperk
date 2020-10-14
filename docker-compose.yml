@@ -7,7 +7,9 @@ services:
       dockerfile: Dockerfile
     image: php:7.4
     container_name: laravel_travelperk_app
-    entrypoint: "vendor/bin/phpunit"
+    entrypoint: "composer update"
+    environment:
+      - COMPOSER_MEMORY_LIMIT=-1
     tty: false
     working_dir: /usr/src/app
     volumes:

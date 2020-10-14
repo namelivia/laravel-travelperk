@@ -1222,12 +1222,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/namelivia/travelperk-http-php.git",
-                "reference": "4f7b836f30893a919e0ff2a99c3f75074367c5bc"
+                "reference": "8f1e2b40448853b46163f5656fce4f24a7407fe6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/namelivia/travelperk-http-php/zipball/4f7b836f30893a919e0ff2a99c3f75074367c5bc",
-                "reference": "4f7b836f30893a919e0ff2a99c3f75074367c5bc",
+                "url": "https://api.github.com/repos/namelivia/travelperk-http-php/zipball/8f1e2b40448853b46163f5656fce4f24a7407fe6",
+                "reference": "8f1e2b40448853b46163f5656fce4f24a7407fe6",
                 "shasum": ""
             },
             "require": {
@@ -1263,7 +1263,7 @@
                 "sdk",
                 "travelperk"
             ],
-            "time": "2020-10-14T09:25:54+00:00"
+            "time": "2020-10-14T10:38:11+00:00"
         },
         {
             "name": "nesbot/carbon",
