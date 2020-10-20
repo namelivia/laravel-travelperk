@@ -4,6 +4,8 @@
   <img src="https://user-images.githubusercontent.com/1571416/89100898-508ea880-d3fb-11ea-8bc8-7f6a9e9b71c0.png" alt="Laravel TravelPerk" />
 </p>
 
+This is an unofficial package to integrate [Laravel](https://laravel.com/) applications with the [TravelPerk official Web API](https://developers.travelperk.com) with minimal effort.
+
 ## Installation
 
 Require this package, with [Composer](https://getcomposer.org/), in the root directory of your project.
