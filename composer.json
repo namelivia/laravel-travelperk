@@ -15,8 +15,9 @@
         "illuminate/contracts": "5.5.*|5.6.*|5.7.*|5.8.*|6.*|7.*|8.*",
         "illuminate/support": "5.5.*|5.6.*|5.7.*|5.8.*|6.*|7.*|8.*",
         "graham-campbell/manager": "3.*|4.*",
-        "namelivia/travelperk-http-php": "^0.0.53",
-        "kamermans/guzzle-oauth2-subscriber": "^1.0"
+        "namelivia/travelperk-http-php": "^0.0.54",
+        "kamermans/guzzle-oauth2-subscriber": "^1.0",
+        "json-mapper/json-mapper": "dev-fix_docblock_type_parsing"
     },
     "require-dev": {
         "mockery/mockery": "^1.0",
@@ -47,6 +48,12 @@
             }
         }
     },
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/namelivia/JsonMapper.git"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
