@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c4c50f00ee27265cc165d5a89a8a4ac",
+    "content-hash": "4dc80872e8c513f91a68f231b089af42",
     "packages": [
         {
             "name": "brick/math",
@@ -1386,16 +1386,16 @@
         },
         {
             "name": "namelivia/travelperk-http-php",
-            "version": "0.0.57",
+            "version": "0.0.58",
             "source": {
                 "type": "git",
                 "url": "https://github.com/namelivia/travelperk-http-php.git",
-                "reference": "9b09c454fb4c8389b50ca90484202f7c0d4bb4a1"
+                "reference": "8991833d70a8f66a5e29be9d5be818ebf63d24b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/namelivia/travelperk-http-php/zipball/9b09c454fb4c8389b50ca90484202f7c0d4bb4a1",
-                "reference": "9b09c454fb4c8389b50ca90484202f7c0d4bb4a1",
+                "url": "https://api.github.com/repos/namelivia/travelperk-http-php/zipball/8991833d70a8f66a5e29be9d5be818ebf63d24b1",
+                "reference": "8991833d70a8f66a5e29be9d5be818ebf63d24b1",
                 "shasum": ""
             },
             "require": {
@@ -1435,9 +1435,9 @@
             ],
             "support": {
                 "issues": "https://github.com/namelivia/travelperk-http-php/issues",
-                "source": "https://github.com/namelivia/travelperk-http-php/tree/0.0.57"
+                "source": "https://github.com/namelivia/travelperk-http-php/tree/0.0.58"
             },
-            "time": "2020-10-29T08:19:32+00:00"
+            "time": "2020-10-29T10:53:02+00:00"
         },
         {
             "name": "namelivia/travelperk-php-api-types",
