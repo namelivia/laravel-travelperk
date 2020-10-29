@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a0cd59b47e30ccf1863b3efd50912637",
+    "content-hash": "9c4c50f00ee27265cc165d5a89a8a4ac",
     "packages": [
         {
             "name": "brick/math",
@@ -1386,23 +1386,23 @@
         },
         {
             "name": "namelivia/travelperk-http-php",
-            "version": "0.0.56",
+            "version": "0.0.57",
             "source": {
                 "type": "git",
                 "url": "https://github.com/namelivia/travelperk-http-php.git",
-                "reference": "b09f4c1f78fd0e33d7a2a9767ef62ee88c72dc6b"
+                "reference": "9b09c454fb4c8389b50ca90484202f7c0d4bb4a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/namelivia/travelperk-http-php/zipball/b09f4c1f78fd0e33d7a2a9767ef62ee88c72dc6b",
-                "reference": "b09f4c1f78fd0e33d7a2a9767ef62ee88c72dc6b",
+                "url": "https://api.github.com/repos/namelivia/travelperk-http-php/zipball/9b09c454fb4c8389b50ca90484202f7c0d4bb4a1",
+                "reference": "9b09c454fb4c8389b50ca90484202f7c0d4bb4a1",
                 "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "^7.0.1",
                 "json-mapper/json-mapper": "^1.4.1",
                 "kamermans/guzzle-oauth2-subscriber": "^1.0",
-                "namelivia/travelperk-php-api-types": "^0.0.3",
+                "namelivia/travelperk-php-api-types": "^0.0.6",
                 "nesbot/carbon": "^2.0",
                 "php": "^7.3"
             },
@@ -1435,22 +1435,22 @@
             ],
             "support": {
                 "issues": "https://github.com/namelivia/travelperk-http-php/issues",
-                "source": "https://github.com/namelivia/travelperk-http-php/tree/0.0.56"
+                "source": "https://github.com/namelivia/travelperk-http-php/tree/0.0.57"
             },
-            "time": "2020-10-28T18:50:12+00:00"
+            "time": "2020-10-29T08:19:32+00:00"
         },
         {
             "name": "namelivia/travelperk-php-api-types",
-            "version": "0.0.3",
+            "version": "0.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/namelivia/travelperk-php-api-types.git",
-                "reference": "cfebe02682b597c5c95db15705eada774c6bb923"
+                "reference": "67484010824b1beb7f88571d9547cd3d3f4272ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/namelivia/travelperk-php-api-types/zipball/cfebe02682b597c5c95db15705eada774c6bb923",
-                "reference": "cfebe02682b597c5c95db15705eada774c6bb923",
+                "url": "https://api.github.com/repos/namelivia/travelperk-php-api-types/zipball/67484010824b1beb7f88571d9547cd3d3f4272ba",
+                "reference": "67484010824b1beb7f88571d9547cd3d3f4272ba",
                 "shasum": ""
             },
             "require": {
@@ -1484,9 +1484,9 @@
             ],
             "support": {
                 "issues": "https://github.com/namelivia/travelperk-php-api-types/issues",
-                "source": "https://github.com/namelivia/travelperk-php-api-types/tree/0.0.3"
+                "source": "https://github.com/namelivia/travelperk-php-api-types/tree/0.0.6"
             },
-            "time": "2020-10-28T18:43:16+00:00"
+            "time": "2020-10-28T21:30:31+00:00"
         },
         {
             "name": "nesbot/carbon",
