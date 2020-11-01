@@ -36,6 +36,31 @@ $ php artisan vendor:publish --provider="Namelivia\TravelPerk\Laravel\TravelPerk
 
 This will create a `config/travelperk.php` file in your app that you can modify to set your configuration. Also, make sure you check for changes to the original config file in this package between releases.
 
+#### OAuth2
+
+To complete the OAuth2 flow you need to add this to your exception handler on `app/Exceptions/Handler.php`.
+
+First load the OAuth redirection trait by adding this on top:
+
+```php
+use Namelivia\TravelPerk\Laravel\OAuthRedirectionTrait;
+``` 
+
+And then make use of the trait inside the Handler class like:
+```php
+use OAuthRedirectionTrait;
+```
+
+Finally on the `render` method replace this line:
+```php
+return parent::render($request, $exception);
+```
+
+With:
+```php
+return OAuthRedirectionTrait::handleOAuthRedirection($exception) ?: parent::render($request, $exception);
+```
+
 #### Default Connection Name
 
 This option `default` is where you may specify which of the connections below you wish to use as your default connection for all work. Of course, you may use many connections at once using the manager class. The default value for this setting is `main`.
