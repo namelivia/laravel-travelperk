@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "77d1f6724b58880ae247c715067e5d00",
+    "content-hash": "7ba2a1226615cd31ecd9a788da932506",
     "packages": [
         {
             "name": "brick/math",
@@ -297,16 +297,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "2.1.22",
+            "version": "2.1.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "68e418ec08fbfc6f58f6fd2eea70ca8efc8cc7d5"
+                "reference": "5fa792ad1853ae2bc60528dd3e5cbf4542d3c1df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/68e418ec08fbfc6f58f6fd2eea70ca8efc8cc7d5",
-                "reference": "68e418ec08fbfc6f58f6fd2eea70ca8efc8cc7d5",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/5fa792ad1853ae2bc60528dd3e5cbf4542d3c1df",
+                "reference": "5fa792ad1853ae2bc60528dd3e5cbf4542d3c1df",
                 "shasum": ""
             },
             "require": {
@@ -353,9 +353,9 @@
             ],
             "support": {
                 "issues": "https://github.com/egulias/EmailValidator/issues",
-                "source": "https://github.com/egulias/EmailValidator/tree/2.1.22"
+                "source": "https://github.com/egulias/EmailValidator/tree/2.1.23"
             },
-            "time": "2020-09-26T15:48:38+00:00"
+            "time": "2020-10-31T20:37:35+00:00"
         },
         {
             "name": "graham-campbell/manager",
@@ -990,16 +990,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "1.5.6",
+            "version": "1.5.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "a56e91e0fa1f6d0049153a9c34f63488f6b7ce61"
+                "reference": "11df9b36fd4f1d2b727a73bf14931d81373b9a54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/a56e91e0fa1f6d0049153a9c34f63488f6b7ce61",
-                "reference": "a56e91e0fa1f6d0049153a9c34f63488f6b7ce61",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/11df9b36fd4f1d2b727a73bf14931d81373b9a54",
+                "reference": "11df9b36fd4f1d2b727a73bf14931d81373b9a54",
                 "shasum": ""
             },
             "require": {
@@ -1087,7 +1087,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-17T21:33:03+00:00"
+            "time": "2020-10-31T13:49:32+00:00"
         },
         {
             "name": "league/flysystem",
@@ -1386,23 +1386,23 @@
         },
         {
             "name": "namelivia/travelperk-http-php",
-            "version": "0.0.59",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/namelivia/travelperk-http-php.git",
-                "reference": "740d954a144c2664cfaf6718d58bd5dea7f050cd"
+                "reference": "b4714acce464566179a1a7f1345227cfc482b7f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/namelivia/travelperk-http-php/zipball/740d954a144c2664cfaf6718d58bd5dea7f050cd",
-                "reference": "740d954a144c2664cfaf6718d58bd5dea7f050cd",
+                "url": "https://api.github.com/repos/namelivia/travelperk-http-php/zipball/b4714acce464566179a1a7f1345227cfc482b7f8",
+                "reference": "b4714acce464566179a1a7f1345227cfc482b7f8",
                 "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "^7.0.1",
                 "json-mapper/json-mapper": "^1.4.2",
                 "kamermans/guzzle-oauth2-subscriber": "^1.0",
-                "namelivia/travelperk-php-api-types": "^0.0.7",
+                "namelivia/travelperk-php-api-types": "^1.0.0",
                 "nesbot/carbon": "^2.0",
                 "php": "^7.3"
             },
@@ -1435,13 +1435,13 @@
             ],
             "support": {
                 "issues": "https://github.com/namelivia/travelperk-http-php/issues",
-                "source": "https://github.com/namelivia/travelperk-http-php/tree/0.0.59"
+                "source": "https://github.com/namelivia/travelperk-http-php/tree/1.0.0"
             },
-            "time": "2020-10-30T12:03:24+00:00"
+            "time": "2020-11-01T14:08:56+00:00"
         },
         {
             "name": "namelivia/travelperk-php-api-types",
-            "version": "0.0.7",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/namelivia/travelperk-php-api-types.git",
@@ -1484,7 +1484,7 @@
             ],
             "support": {
                 "issues": "https://github.com/namelivia/travelperk-php-api-types/issues",
-                "source": "https://github.com/namelivia/travelperk-php-api-types/tree/0.0.7"
+                "source": "https://github.com/namelivia/travelperk-php-api-types/tree/1.0.0"
             },
             "time": "2020-10-30T12:00:46+00:00"
         },
