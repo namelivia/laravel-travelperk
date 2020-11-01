@@ -25,6 +25,7 @@ class TravelPerkServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->setupConfig();
+        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
     }
 
     /**
