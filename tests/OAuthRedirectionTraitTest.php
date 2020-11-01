@@ -4,14 +4,11 @@ declare(strict_types=1);
 
 namespace Namelivia\TravelPerk\Tests\Laravel;
 
-use GrahamCampbell\TestBenchCore\ServiceProviderTrait;
-use Namelivia\TravelPerk\Laravel\OAuthRedirectionTrait;
-use Namelivia\TravelPerk\OAuth\MissingCodeException;
+use Illuminate\Support\Facades\Redirect;
 use Namelivia\TravelPerk\Exceptions\NotImplementedException;
 use Namelivia\TravelPerk\Laravel\Facades\TravelPerk;
-use Illuminate\Support\Facades\Redirect;
-use Illuminate\Support\Facades\Request;
-use Mockery;
+use Namelivia\TravelPerk\Laravel\OAuthRedirectionTrait;
+use Namelivia\TravelPerk\OAuth\MissingCodeException;
 
 /**
  * This is the oauth redirection test class.
