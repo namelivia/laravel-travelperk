@@ -1410,7 +1410,7 @@
         },
         {
             "name": "namelivia/travelperk-http-php",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/namelivia/travelperk-http-php.git",
@@ -1459,7 +1459,7 @@
             ],
             "support": {
                 "issues": "https://github.com/namelivia/travelperk-http-php/issues",
-                "source": "https://github.com/namelivia/travelperk-http-php/tree/1.4.1"
+                "source": "https://github.com/namelivia/travelperk-http-php/tree/1.4.2"
             },
             "time": "2021-03-13T17:19:02+00:00"
         },
