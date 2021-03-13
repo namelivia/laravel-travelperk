@@ -11,7 +11,7 @@ This is an unofficial package to integrate [Laravel](https://laravel.com/) appli
 Require this package, with [Composer](https://getcomposer.org/), in the root directory of your project.
 
 ```bash
-$ composer require namelivia/laravel-travelperk
+$ composer require namelivia/laravel-travelperk:~1.4.0
 ```
 
 Add the service provider to `config/app.php` in the `providers` array. If you're using Laravel 5.5 or greater, there's no need to do this.
