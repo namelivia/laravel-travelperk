@@ -1410,16 +1410,16 @@
         },
         {
             "name": "namelivia/travelperk-http-php",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/namelivia/travelperk-http-php.git",
-                "reference": "c50d2f7e1c7faf1f3f463d2e083d138c49272960"
+                "reference": "4cecbf1c5fa31d338acd928f9a8e88ebae0c3b3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/namelivia/travelperk-http-php/zipball/c50d2f7e1c7faf1f3f463d2e083d138c49272960",
-                "reference": "c50d2f7e1c7faf1f3f463d2e083d138c49272960",
+                "url": "https://api.github.com/repos/namelivia/travelperk-http-php/zipball/4cecbf1c5fa31d338acd928f9a8e88ebae0c3b3d",
+                "reference": "4cecbf1c5fa31d338acd928f9a8e88ebae0c3b3d",
                 "shasum": ""
             },
             "require": {
@@ -1459,9 +1459,9 @@
             ],
             "support": {
                 "issues": "https://github.com/namelivia/travelperk-http-php/issues",
-                "source": "https://github.com/namelivia/travelperk-http-php/tree/1.4.0"
+                "source": "https://github.com/namelivia/travelperk-http-php/tree/1.4.1"
             },
-            "time": "2021-03-12T18:49:51+00:00"
+            "time": "2021-03-13T17:19:02+00:00"
         },
         {
             "name": "namelivia/travelperk-php-api-types",
@@ -7273,16 +7273,16 @@
         },
         {
             "name": "spatie/laravel-ray",
-            "version": "1.16.0",
+            "version": "1.17.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-ray.git",
-                "reference": "14241290305ba08f4cb1ce7aa5bb8015b48a80b4"
+                "reference": "c25f2c2cdf3221abce3b1250cb7296721acfd2b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-ray/zipball/14241290305ba08f4cb1ce7aa5bb8015b48a80b4",
-                "reference": "14241290305ba08f4cb1ce7aa5bb8015b48a80b4",
+                "url": "https://api.github.com/repos/spatie/laravel-ray/zipball/c25f2c2cdf3221abce3b1250cb7296721acfd2b8",
+                "reference": "c25f2c2cdf3221abce3b1250cb7296721acfd2b8",
                 "shasum": ""
             },
             "require": {
@@ -7337,7 +7337,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-ray/issues",
-                "source": "https://github.com/spatie/laravel-ray/tree/1.16.0"
+                "source": "https://github.com/spatie/laravel-ray/tree/1.17.1"
             },
             "funding": [
                 {
@@ -7349,7 +7349,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2021-03-12T16:10:47+00:00"
+            "time": "2021-03-13T12:50:02+00:00"
         },
         {
             "name": "spatie/macroable",
