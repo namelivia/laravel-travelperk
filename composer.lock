@@ -5531,16 +5531,16 @@
         },
         {
             "name": "graham-campbell/analyzer",
-            "version": "v3.0.5",
+            "version": "v3.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GrahamCampbell/Analyzer.git",
-                "reference": "841b3ef9fc1f18c18cd373f606a8a3667a34dc95"
+                "reference": "ca9a7090287d2a925a28da5038fbeab1772e7f49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GrahamCampbell/Analyzer/zipball/841b3ef9fc1f18c18cd373f606a8a3667a34dc95",
-                "reference": "841b3ef9fc1f18c18cd373f606a8a3667a34dc95",
+                "url": "https://api.github.com/repos/GrahamCampbell/Analyzer/zipball/ca9a7090287d2a925a28da5038fbeab1772e7f49",
+                "reference": "ca9a7090287d2a925a28da5038fbeab1772e7f49",
                 "shasum": ""
             },
             "require": {
@@ -5583,7 +5583,7 @@
             ],
             "support": {
                 "issues": "https://github.com/GrahamCampbell/Analyzer/issues",
-                "source": "https://github.com/GrahamCampbell/Analyzer/tree/v3.0.5"
+                "source": "https://github.com/GrahamCampbell/Analyzer/tree/v3.0.6"
             },
             "funding": [
                 {
@@ -5595,7 +5595,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-08-28T23:02:02+00:00"
+            "time": "2021-10-17T19:47:56+00:00"
         },
         {
             "name": "graham-campbell/testbench",
