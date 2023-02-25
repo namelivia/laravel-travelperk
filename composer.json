@@ -20,7 +20,7 @@
     },
     "require-dev": {
         "mockery/mockery": "^1.0",
-        "graham-campbell/analyzer": "^3.0",
+        "graham-campbell/analyzer": "^4.0",
         "graham-campbell/testbench": "3.*|4.*|5.*",
         "phpunit/phpunit": "^9.2.5"
     },
